@@ -13,7 +13,7 @@ Set fso = CreateObject("Scripting.FileSystemObject")
 Set wshShell = CreateObject("WScript.Shell")
 
 ' 启动提示（仅一次）
-WScript.Echo "AutoCopy脚本启动，点击确认开始！"
+WScript.Echo "U-disk Copy脚本启动，点击确认开始！"
 
 ' 提示后延迟时间，例如1分钟就是 1 * 60000毫秒
 WScript.Sleep  1*60000
